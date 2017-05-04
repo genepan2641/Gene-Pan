@@ -3,8 +3,6 @@ $(window).on('load', function() {
 	$('#preloader').fadeOut('slow', function() { 
 		$(this).remove();
 	});
-});
-
 $(document).ready(function(){
 
 	var Scrolling = (function(){
@@ -74,3 +72,5 @@ $(document).ready(function(){
 	Scrolling.animateCss();
 
 });
+});
+
