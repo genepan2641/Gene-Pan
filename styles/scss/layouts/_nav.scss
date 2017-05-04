@@ -1,0 +1,117 @@
+@import "../helpers/variables";
+
+.nav {
+	width: 100%;
+	height: 70px;
+	position: fixed;
+	z-index: 99999;
+	background  : linear-gradient(to right, $dark-blue, $gradient-blue 80%) no-repeat;
+	box-shadow: 0px 2px 15px rgba($dark-blue, 0.1);
+	transition: all 0.5s;
+}
+
+.nav.solid {
+	height: 60px;
+	background: rgba($light-gray, 0.99);
+}
+
+.nav .gene__container {
+	height: 70px;
+}
+
+.nav .nav__logo {
+	display: inline-block;
+	width: 55px;
+	height: auto;
+	padding: 20px 0;
+	transition: all 0.5s;
+
+	@include for-size(phone) {
+		margin-left: 20px;
+	}
+
+	g {	
+		* {
+			fill: $light-gray;
+			transition: all 0.35s;
+		}
+	}
+	&:hover g * {
+		fill:$light-green;
+	}
+}
+
+.nav.solid .nav__logo {
+	padding: 15px 0; 
+	g * {
+		fill: $dark-blue;
+	}
+	&:hover g * {
+		fill: $light-green;
+	}
+}
+
+.nav .nav__links {
+	display: inline-block;
+	list-style-type: none;
+	float: right;
+	padding: 0;
+	margin: 25px auto;
+	transition: all 0.5s;
+	
+	@include for-size(phone) {
+		margin-right: 15px;
+	}
+
+	li {
+		display: inline;
+		position: relative;
+		margin-left: 35px;
+	}
+
+	a {
+		font-family: $font-sans-serif;
+		font-weight: 400;
+		font-size: 0.75rem;
+		color: $light-gray;
+		text-decoration: none;
+		letter-spacing: 3px;
+		transition: all .25s;
+		&:hover {
+			color: $light-green;
+		}
+		&:hover + .nav__links-hover {
+			stroke-dasharray: 100, 0;
+			stroke-dashoffset: 0;
+		}
+	}
+}
+
+.nav.solid .nav__links {
+	margin: 20px auto;
+}
+
+.nav.solid .nav__links a{
+	color: $dark-blue;
+	&:hover {
+		color: $light-green;
+	}
+}
+
+.nav .nav__links-hover {
+	position: absolute;
+	top: 115%;
+	left: -1%;
+	width: 96%;
+	height: 5px;
+	stroke-dasharray:0, 50;
+	stroke-dashoffset: -50;
+	transition: all 0.25s;
+	path {
+		// stroke: linear-gradient(to right, $light-green, $gradient-green);
+		stroke: $light-green;
+		stroke-width: 2px;
+		fill: none;
+	}
+}
+

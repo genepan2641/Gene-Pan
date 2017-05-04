@@ -1,0 +1,54 @@
+@import "./helpers/mixins";
+@import "./helpers/variables";
+
+.whiteDay {
+	@extend %singleWork;
+	overflow: hidden;
+	img {
+		@extend %img-shadow;
+		width: 100%;
+	}
+}
+
+.whiteDay__header {
+	&:after {
+		content   :' ';
+		display   : block;
+		width     : 80%;
+		height    : 3px;
+		@extend %gradient-second;
+		margin: 100px auto;
+
+		@include for-size(phone) {
+			margin: 50px auto;
+		}
+	}
+}
+
+.whiteDay__second {
+	display: flex;
+	align-items: center;
+	margin-top: 150px;
+
+	@include for-size(phone) {
+		flex-direction: column;
+		width: 100%;
+		margin-top: 50px;
+	}
+	.left {
+		flex: 1;
+		margin-right: 200px;
+	
+		@include for-size(tablet-portrait) {
+			margin-right: 50px;
+		}
+
+		@include for-size(phone) {
+			margin-right: 0;
+			margin-bottom: 50px;
+		}
+	}
+	.right {
+		flex: 1;
+	}
+}

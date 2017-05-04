@@ -1,0 +1,84 @@
+@import "./colors";
+
+@mixin for-size($size) {
+  @if $size == phone {
+    @media (max-width: 600px) { @content; }
+  } @else if $size == tablet-portrait {
+    @media (max-width: 900px) { @content; }
+  } @else if $size == tablet-landscape {
+    @media (max-width: 1200px) { @content; }
+  } 
+}
+
+%vertical-line {
+	display: block;
+	content: "";
+	width: 1px;
+	height: 150px;
+	background: $light-green;
+}
+
+%horizontal-line {
+	display: block;
+	content: "";
+	width: 20px;
+	height: 1px;
+	background: $light-green;	
+}
+
+%img-shadow {
+	box-shadow: 0px 5px 20px darken($light-gray, 20%);
+}
+
+%gradient-primary {
+	background  : linear-gradient(to right, $dark-blue, $gradient-blue 80%) no-repeat;
+}
+
+%gradient-second {
+	background  : linear-gradient(to right, $light-green, $gradient-blue 80%) no-repeat;
+}
+
+%singleWork {
+	padding: 150px 0px 200px;
+	background: $light-gray;
+
+	@include for-size(phone) {
+		padding-top: 100px;
+	}
+
+	.singleWork__info {
+		width: 100%;
+
+		h1 {	
+			font-size: $font-size-h1;
+			font-weight: 700;
+			margin-bottom: 10px;
+		}
+		
+		.singleWork__role {
+			font-size: 0.8rem;
+		}
+
+		.horizontal-line {
+			@extend %horizontal-line;
+			margin:50px 0 20px;
+		}
+
+		.singleWork__description {
+			font-family: $font-serif;
+			font-size: 1.1rem;
+			line-height: 1.5;
+			color: $dark-blue;
+			width: 85%;
+			margin:0px 0px 70px;
+
+			@include for-size(phone) {
+				width: 100%;
+			}
+		}
+	}
+}
+
+
+
+

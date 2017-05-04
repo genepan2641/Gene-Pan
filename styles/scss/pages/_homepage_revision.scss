@@ -1,0 +1,122 @@
+@import "./helpers/mixins";
+@import "./helpers/variables";
+
+
+
+
+
+.homepageRevision {
+	@extend %singleWork;
+	overflow: hidden;
+}
+
+.homepageRevision__visuals {
+	position: relative;
+	.vertical-line {
+		margin  : 0 auto;
+		height  : 100px;
+		position: relative;
+		bottom  : -30px;
+	}
+}
+
+.homepageRevision__aboutUsPC {
+	@extend %img-shadow;
+	video {
+		width: 100%;
+	}
+}
+
+.homepageRevision__demoimg {
+	position: relative;
+	width : 700px;
+	height: 400px;
+	margin: 150px 0 0 0;
+
+	@include for-size(phone) {
+		width: 100%;
+		height: 300px;
+	}
+
+	&:after {
+		@extend %gradient-primary;
+		position: absolute;
+		content: " ";
+		height: 30px;
+		width: 500px;
+		top: 160px;
+		right: -46%;
+
+		@include for-size(phone) {
+			width: 100px;
+			right: 0;
+		}
+	}
+}
+
+.homepageRevision__deskimg {
+	width: 90%;
+
+	@include for-size(phone) {
+		width: 100%;
+	}
+}
+
+.homepageRevision__mobileimg {
+	width: 20%;
+	position: relative;
+	top: -250px;
+
+	@include for-size(phone) {
+		width: 25%;
+		top: -150px;
+	}
+} 
+
+.homepageRevision__mobile {
+	@extend %gradient-primary;
+	width: 250px;
+	margin: 0 auto;
+	padding: 3px;
+	// border: 1px solid $light-green;
+	clear: right;
+
+	video {
+		position: relative;
+		top: 20px;
+		left: 20px;
+		width: 100%;
+		@extend %img-shadow;
+	}
+}
+
+.homepageRevision__carousel {
+	@extend %gradient-primary;
+	width: 90%;
+	min-height: 300px;
+	padding: 50px 0;
+	margin: 150px auto 100px;
+
+	@include for-size(phone) {
+		margin: 0px auto 50px;
+		min-height: 100px;
+	}
+
+	video {
+		width: 90%;
+		float: right;
+		margin-right: -120px;
+		@extend %img-shadow;
+
+		@include for-size(tablet-portrait) {
+			width: 110%;
+			margin-right: -5%;
+		}
+	}
+
+	&:after {
+		content: " ";
+		display: block;
+		clear: both;
+	}
+}

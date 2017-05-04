@@ -1,0 +1,90 @@
+@import "./helpers/mixins";
+@import "./helpers/variables";
+
+.moonFestival {
+	@extend %singleWork;
+	overflow: hidden;
+	img {
+		@extend %img-shadow;
+		width: 100%;
+	}
+}
+
+.moonFestival__header {
+	width: 100%;
+	img {
+		width: 100%;
+	}
+}
+
+.moonFestival__second {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	margin-top: 150px;
+
+	@include for-size(phone) {
+		margin-top: 50px;
+		flex-direction: column;
+	}
+
+	.left {
+		flex:1;
+		margin-right: 150px;
+		position: relative;
+		z-index: 1;
+		@include for-size(tablet-portrait) {
+			margin-right: 50px;
+		}
+
+		@include for-size(phone) {
+			width: 20%;
+			margin:50px auto 100px;
+
+			&:after {
+				content:' ';
+				position: relative;
+				display: block;
+				height: 2px;
+				width: 200%;
+				background: $dark-blue;
+				transform: translate(-25%, -50px);
+				z-index: -1;
+			}
+		}
+	}
+	.right {
+		position: relative;
+		flex: 5;
+	}
+}
+
+.moonFestival__third {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	margin-top: 250px;
+
+	@include for-size(phone) {
+		margin-top: 100px;
+		flex-direction: column;
+	}
+
+	.left {
+		flex: 2;		
+		margin-right: 110px;
+
+		@include for-size(tablet-portrait) {
+			margin-right: 50px;
+		}
+		@include for-size(phone) {
+			margin-right: 0px;
+			margin-bottom: 30px;
+		}
+	}
+	.right {
+		flex: 1;
+	}
+}

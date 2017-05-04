@@ -1,0 +1,32 @@
+@import "../helpers/colors";
+@import "../helpers/variables";
+@import "../helpers/mixins";
+
+
+.about {
+	@extend %singleWork;
+	overflow: hidden;
+	min-height: 100vh;	
+}
+
+.about__title {
+	padding-left: 10%;
+	font-size: $font-size-h1;
+	color: $gradient-green;
+
+	@include for-size(phone) {
+		padding-left: 0;
+	}
+}
+
+.about__intro {
+	line-height: 1.6;
+	font-size: 0.95rem;
+	width: 100%;
+	padding-left: 30%;
+	color: $gradient-blue;
+
+	@include for-size(phone) {
+		padding-left: 0;
+	}
+}

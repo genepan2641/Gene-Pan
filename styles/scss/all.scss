@@ -1,0 +1,67 @@
+@import "helpers/variables";
+
+@import "helpers/colors";
+@import "helpers/mixins";
+
+@import "partials/buttons";
+
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	font-family: $font-sans-serif;
+	font-size: 100%;
+	width: 100%;
+	position: relative;
+}
+
+a {
+	text-decoration: none;
+}
+
+@import "layouts/nav";
+@import "layouts/header";
+@import "layouts/works";
+@import "layouts/footer";
+
+// @import "pages/home";
+@import "pages/homepage_revision";
+@import "pages/moon_festival";
+@import "pages/winter_cutting";
+@import "pages/white_day";
+@import "pages/about";
+
+.gene__container {
+	margin: 0 auto;
+	width: 960px;
+	@include for-size(tablet-landscape) {
+		width: 800px;
+	}
+	@include for-size(tablet-portrait) {
+		width: 90%;
+	}
+	@include for-size(phone) {
+		width: 95%;
+	}
+}
+
+.inline-link {
+	font-weight: 700;
+	color: $gradient-green;
+	transition: all .25s;
+
+	&:hover {
+		color: $light-green;
+	}
+}
+
+.vertical-line {
+	@extend %vertical-line;
+}
+
+.phone-invisible {
+	@include for-size(phone) {
+		display: none !important;
+	}
+}

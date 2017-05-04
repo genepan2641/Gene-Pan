@@ -1,0 +1,72 @@
+@import "./helpers/mixins";
+@import "./helpers/variables";
+
+.winterCutting {
+	@extend %singleWork;
+	overflow: hidden;
+	img {
+		@extend %img-shadow;
+		width: 100%;
+	}
+}
+
+.winterCutting__header {
+	width: 100%;
+}
+
+.winterCutting__second {
+	width: 63%;
+	margin: 100px auto;
+
+	@include for-size(phone) {
+		width: 100%;
+	}
+
+	.left {
+		position: relative;
+		right: 120px;
+		top: 30px;
+
+		@include for-size(phone) {
+			position: static;
+			width: 100%;
+			margin-bottom: 50px;
+		}
+
+		&:after {
+			@extend %gradient-second;
+			content: " ";
+			display: block;
+			position: absolute;
+			left: -5%;
+			height: 1px;
+			width: 150%;
+			transform: rotate(-20deg);
+
+			@include for-size(tablet-portrait) {
+				left: 5%;
+			}
+			@include for-size(phone) {
+				// display: none;
+				width: 90%;
+			}
+		}
+	}
+	.right {
+		position: relative;
+		left: 120px;
+
+		@include for-size(phone) {
+			position: static;
+			width: 100%;
+		}
+	}
+}
+
+.winterCutting__third {
+	width: 70%;
+
+	@include for-size(tablet-portrait) {
+		width: 100%;
+	}
+}

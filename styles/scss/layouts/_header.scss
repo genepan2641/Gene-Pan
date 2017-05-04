@@ -1,0 +1,131 @@
+@import './helpers/variables';
+@import './helpers/colors';
+
+.header {
+	@extend %gradient-primary;
+	width           : 100%;
+	max-height      : $header-height;
+	background-color: $light-gray;
+	transform       : skew(0, -4deg) translateY(-45px);
+	
+	position        : relative;
+	z-index         : 9999;
+}
+
+.header__floating1 {
+	position: absolute;
+	width: 60%;
+	left: -3%;
+	top: 73%;
+	filter: blur(5px);
+	z-index: -1;
+	@include for-size(tablet-portrait) {
+		width: 80%;
+	}
+	@include for-size(phone) {
+		width: 90%;
+		top: 75%;
+	}	
+}
+
+.header__floating2 {
+	position: absolute;
+	width: 200px;
+	bottom: 50px;
+	right: 50px;
+	filter: blur(2px);
+
+	@include for-size(tablet-portrait) {
+		width: 20%;
+		right: 10px;
+	}
+	@include for-size(phone) {
+		top: 50%;
+	}		
+}
+
+.header__floating3 {
+	position: absolute;
+	width: 200px;
+	top: 20%;
+	left: 30px;
+	filter: blur(2px);
+
+	@include for-size(tablet-portrait) {
+		width: 20%;
+	}	
+
+}
+
+.header__floating4 {
+	position: absolute;
+	width: 120px;
+	right: 10%;
+	top: 25%;
+	filter: blur(3px);
+
+	@include for-size(tablet-portrait) {
+		width: 10%;
+	}	
+}
+
+.header .gene__container {
+	transform: skew(0, 4deg) translateY(45px);
+	text-align: center;
+}
+
+.header .header__img {
+	display: block;
+	width: 350px;
+	margin: 0 auto;
+	padding: 100px 0 0 5%;
+	
+	@include for-size(tablet-portrait) {
+		width: 250px;
+	}
+	@include for-size(phone) {
+		width: 200px;	
+	}
+}
+
+.header .header__intro {
+	color: darken($light-gray, 10%);
+	font-weight: 400;
+	font-size: $font-size-h1;
+	line-height: 1.2;
+	margin-top: -35px;
+	text-align: left;
+
+	@include for-size(phone) {
+		margin-top: 5px;
+		margin-left: 20px;
+		font-size: $font-size-h1 * 0.8;
+	}
+
+	b {
+		font-weight: 500;
+		color: $light-green;
+	}
+}
+
+.header .header__works {
+	position: relative;
+	display: inline-block;
+	font-family: $font-serif;
+	font-size: .9rem;
+	font-style: oblique;
+	color: $light-gray;
+	margin: 60px auto 5px;
+	// z-index: 9999;
+
+	@include for-size(phone) {
+		margin-top: 10px;
+	}
+}
+
+.header .header__line {
+	@extend %vertical-line;
+	margin: auto;
+}
+
+
