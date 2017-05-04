@@ -4,72 +4,50 @@
   content: "";
   width: 1px;
   height: 150px;
-  background: #00fabc;
-}
+  background: #00fabc; }
 
 .homepageRevision .singleWork__info .horizontal-line, .moonFestival .singleWork__info .horizontal-line, .winterCutting .singleWork__info .horizontal-line, .whiteDay .singleWork__info .horizontal-line, .about .singleWork__info .horizontal-line {
   display: block;
   content: "";
   width: 20px;
   height: 1px;
-  background: #00fabc;
-}
+  background: #00fabc; }
 
 .homepageRevision__aboutUsPC, .homepageRevision__mobile video, .homepageRevision__carousel video, .moonFestival img, .winterCutting img, .whiteDay img {
-  box-shadow: 0px 5px 20px #c1c1c1;
-}
+  box-shadow: 0px 5px 20px #c1c1c1; }
 
-.header, .homepageRevision__demoimg:after, .homepageRevision__mobile, .homepageRevision__carousel {
-  background: linear-gradient(to right, #00142f, #00444c 80%) no-repeat;
-}
+.header, .homepageRevision__demoimg:after, .homepageRevision__mobile, .homepageRevision__carousel, #preloader {
+  background: linear-gradient(to right, #00142f, #00444c 80%) no-repeat; }
 
 .winterCutting__second .left:after, .whiteDay__header:after {
-  background: linear-gradient(to right, #00fabc, #00444c 80%) no-repeat;
-}
+  background: linear-gradient(to right, #00fabc, #00444c 80%) no-repeat; }
 
 .homepageRevision, .moonFestival, .winterCutting, .whiteDay, .about {
   padding: 150px 0px 200px;
-  background: #f4f4f4;
-}
-
-@media (max-width: 600px) {
-  .homepageRevision, .moonFestival, .winterCutting, .whiteDay, .about {
-    padding-top: 100px;
-  }
-}
-
-.homepageRevision .singleWork__info, .moonFestival .singleWork__info, .winterCutting .singleWork__info, .whiteDay .singleWork__info, .about .singleWork__info {
-  width: 100%;
-}
-
-.homepageRevision .singleWork__info h1, .moonFestival .singleWork__info h1, .winterCutting .singleWork__info h1, .whiteDay .singleWork__info h1, .about .singleWork__info h1 {
-  font-size: 2.375rem;
-  font-weight: 700;
-  margin-bottom: 10px;
-}
-
-.homepageRevision .singleWork__info .singleWork__role, .moonFestival .singleWork__info .singleWork__role, .winterCutting .singleWork__info .singleWork__role, .whiteDay .singleWork__info .singleWork__role, .about .singleWork__info .singleWork__role {
-  font-size: 0.8rem;
-}
-
-.homepageRevision .singleWork__info .horizontal-line, .moonFestival .singleWork__info .horizontal-line, .winterCutting .singleWork__info .horizontal-line, .whiteDay .singleWork__info .horizontal-line, .about .singleWork__info .horizontal-line {
-  margin: 50px 0 20px;
-}
-
-.homepageRevision .singleWork__info .singleWork__description, .moonFestival .singleWork__info .singleWork__description, .winterCutting .singleWork__info .singleWork__description, .whiteDay .singleWork__info .singleWork__description, .about .singleWork__info .singleWork__description {
-  font-family: "Minion Pro", "Times New Roman", "Adobe Garamond Pro", serif;
-  font-size: 1.1rem;
-  line-height: 1.5;
-  color: #00142f;
-  width: 85%;
-  margin: 0px 0px 70px;
-}
-
-@media (max-width: 600px) {
-  .homepageRevision .singleWork__info .singleWork__description, .moonFestival .singleWork__info .singleWork__description, .winterCutting .singleWork__info .singleWork__description, .whiteDay .singleWork__info .singleWork__description, .about .singleWork__info .singleWork__description {
-    width: 100%;
-  }
-}
+  background: #f4f4f4; }
+  @media (max-width: 600px) {
+    .homepageRevision, .moonFestival, .winterCutting, .whiteDay, .about {
+      padding-top: 100px; } }
+  .homepageRevision .singleWork__info, .moonFestival .singleWork__info, .winterCutting .singleWork__info, .whiteDay .singleWork__info, .about .singleWork__info {
+    width: 100%; }
+    .homepageRevision .singleWork__info h1, .moonFestival .singleWork__info h1, .winterCutting .singleWork__info h1, .whiteDay .singleWork__info h1, .about .singleWork__info h1 {
+      font-size: 2.375rem;
+      font-weight: 700;
+      margin-bottom: 10px; }
+    .homepageRevision .singleWork__info .singleWork__role, .moonFestival .singleWork__info .singleWork__role, .winterCutting .singleWork__info .singleWork__role, .whiteDay .singleWork__info .singleWork__role, .about .singleWork__info .singleWork__role {
+      font-size: 0.8rem; }
+    .homepageRevision .singleWork__info .horizontal-line, .moonFestival .singleWork__info .horizontal-line, .winterCutting .singleWork__info .horizontal-line, .whiteDay .singleWork__info .horizontal-line, .about .singleWork__info .horizontal-line {
+      margin: 50px 0 20px; }
+    .homepageRevision .singleWork__info .singleWork__description, .moonFestival .singleWork__info .singleWork__description, .winterCutting .singleWork__info .singleWork__description, .whiteDay .singleWork__info .singleWork__description, .about .singleWork__info .singleWork__description {
+      font-family: "Minion Pro", "Times New Roman", "Adobe Garamond Pro", serif;
+      font-size: 1.1rem;
+      line-height: 1.5;
+      color: #00142f;
+      width: 85%;
+      margin: 0px 0px 70px; }
+      @media (max-width: 600px) {
+        .homepageRevision .singleWork__info .singleWork__description, .moonFestival .singleWork__info .singleWork__description, .winterCutting .singleWork__info .singleWork__description, .whiteDay .singleWork__info .singleWork__description, .about .singleWork__info .singleWork__description {
+          width: 100%; } }
 
 .button-primary {
   display: block;
@@ -79,88 +57,65 @@
   width: 120px;
   height: 40px;
   text-align: center;
-  line-height: 3.1;
-}
+  line-height: 3.1; }
 
 .button-primary {
   color: #00142f;
   background: linear-gradient(#00fabc, #19C3A1) no-repeat;
   box-shadow: 0px 10px 10px -10px rgba(15, 15, 15, 0.6);
-  transition: all .25s;
-}
-
-.button-primary:hover {
-  box-shadow: 0px 20px 30px -15px rgba(15, 15, 15, 0.55);
-}
+  transition: all .25s; }
+  .button-primary:hover {
+    box-shadow: 0px 20px 30px -15px rgba(15, 15, 15, 0.55); }
 
 * {
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 html, body {
   font-family: "Avenir Next", Helvetica, "Arial", "Geneva", sans-serif;
   font-size: 100%;
   width: 100%;
-  position: relative;
-}
+  position: relative; }
 
 a {
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 .nav {
   width: 100%;
   height: 70px;
   position: fixed;
-  z-index: 99999;
+  z-index: 99998;
   background: linear-gradient(to right, #00142f, #00444c 80%) no-repeat;
   box-shadow: 0px 2px 15px rgba(0, 20, 47, 0.1);
-  transition: all 0.5s;
-}
+  transition: all 0.5s; }
 
 .nav.solid {
   height: 60px;
-  background: rgba(244, 244, 244, 0.99);
-}
+  background: rgba(244, 244, 244, 0.99); }
 
 .nav .gene__container {
-  height: 70px;
-}
+  height: 70px; }
 
 .nav .nav__logo {
   display: inline-block;
   width: 55px;
   height: auto;
   padding: 20px 0;
-  transition: all 0.5s;
-}
-
-@media (max-width: 600px) {
-  .nav .nav__logo {
-    margin-left: 20px;
-  }
-}
-
-.nav .nav__logo g * {
-  fill: #f4f4f4;
-  transition: all 0.35s;
-}
-
-.nav .nav__logo:hover g * {
-  fill: #00fabc;
-}
+  transition: all 0.5s; }
+  @media (max-width: 600px) {
+    .nav .nav__logo {
+      margin-left: 20px; } }
+  .nav .nav__logo g * {
+    fill: #f4f4f4;
+    transition: all 0.35s; }
+  .nav .nav__logo:hover g * {
+    fill: #00fabc; }
 
 .nav.solid .nav__logo {
-  padding: 15px 0;
-}
-
-.nav.solid .nav__logo g * {
-  fill: #00142f;
-}
-
-.nav.solid .nav__logo:hover g * {
-  fill: #00fabc;
-}
+  padding: 15px 0; }
+  .nav.solid .nav__logo g * {
+    fill: #00142f; }
+  .nav.solid .nav__logo:hover g * {
+    fill: #00fabc; }
 
 .nav .nav__links {
   display: inline-block;
@@ -168,51 +123,35 @@ a {
   float: right;
   padding: 0;
   margin: 25px auto;
-  transition: all 0.5s;
-}
-
-@media (max-width: 600px) {
-  .nav .nav__links {
-    margin-right: 15px;
-  }
-}
-
-.nav .nav__links li {
-  display: inline;
-  position: relative;
-  margin-left: 35px;
-}
-
-.nav .nav__links a {
-  font-family: "Avenir Next", Helvetica, "Arial", "Geneva", sans-serif;
-  font-weight: 400;
-  font-size: 0.75rem;
-  color: #f4f4f4;
-  text-decoration: none;
-  letter-spacing: 3px;
-  transition: all .25s;
-}
-
-.nav .nav__links a:hover {
-  color: #00fabc;
-}
-
-.nav .nav__links a:hover + .nav__links-hover {
-  stroke-dasharray: 100, 0;
-  stroke-dashoffset: 0;
-}
+  transition: all 0.5s; }
+  @media (max-width: 600px) {
+    .nav .nav__links {
+      margin-right: 15px; } }
+  .nav .nav__links li {
+    display: inline;
+    position: relative;
+    margin-left: 35px; }
+  .nav .nav__links a {
+    font-family: "Avenir Next", Helvetica, "Arial", "Geneva", sans-serif;
+    font-weight: 400;
+    font-size: 0.75rem;
+    color: #f4f4f4;
+    text-decoration: none;
+    letter-spacing: 3px;
+    transition: all .25s; }
+    .nav .nav__links a:hover {
+      color: #00fabc; }
+    .nav .nav__links a:hover + .nav__links-hover {
+      stroke-dasharray: 100, 0;
+      stroke-dashoffset: 0; }
 
 .nav.solid .nav__links {
-  margin: 20px auto;
-}
+  margin: 20px auto; }
 
 .nav.solid .nav__links a {
-  color: #00142f;
-}
-
-.nav.solid .nav__links a:hover {
-  color: #00fabc;
-}
+  color: #00142f; }
+  .nav.solid .nav__links a:hover {
+    color: #00fabc; }
 
 .nav .nav__links-hover {
   position: absolute;
@@ -222,126 +161,84 @@ a {
   height: 5px;
   stroke-dasharray: 0, 50;
   stroke-dashoffset: -50;
-  transition: all 0.25s;
-}
-
-.nav .nav__links-hover path {
-  stroke: #00fabc;
-  stroke-width: 2px;
-  fill: none;
-}
+  transition: all 0.25s; }
+  .nav .nav__links-hover path {
+    stroke: #00fabc;
+    stroke-width: 2px;
+    fill: none; }
 
 .header {
   width: 100%;
   max-height: 110vh;
   background-color: #f4f4f4;
-  -webkit-transform: skew(0, -4deg) translateY(-45px);
-      -ms-transform: skew(0, -4deg) translateY(-45px);
-          transform: skew(0, -4deg) translateY(-45px);
+  transform: skew(0, -4deg) translateY(-45px);
   position: relative;
-  z-index: 9999;
-}
+  z-index: 9999; }
 
 .header__floating1 {
   position: absolute;
   width: 60%;
   left: -3%;
   top: 73%;
-  -webkit-filter: blur(5px);
-          filter: blur(5px);
-  z-index: -1;
-}
-
-@media (max-width: 900px) {
-  .header__floating1 {
-    width: 80%;
-  }
-}
-
-@media (max-width: 600px) {
-  .header__floating1 {
-    width: 90%;
-    top: 75%;
-  }
-}
+  filter: blur(5px);
+  z-index: -1; }
+  @media (max-width: 900px) {
+    .header__floating1 {
+      width: 80%; } }
+  @media (max-width: 600px) {
+    .header__floating1 {
+      width: 90%;
+      top: 75%; } }
 
 .header__floating2 {
   position: absolute;
   width: 200px;
   bottom: 50px;
   right: 50px;
-  -webkit-filter: blur(2px);
-          filter: blur(2px);
-}
-
-@media (max-width: 900px) {
-  .header__floating2 {
-    width: 20%;
-    right: 10px;
-  }
-}
-
-@media (max-width: 600px) {
-  .header__floating2 {
-    top: 50%;
-  }
-}
+  filter: blur(2px); }
+  @media (max-width: 900px) {
+    .header__floating2 {
+      width: 20%;
+      right: 10px; } }
+  @media (max-width: 600px) {
+    .header__floating2 {
+      top: 50%; } }
 
 .header__floating3 {
   position: absolute;
   width: 200px;
   top: 20%;
   left: 30px;
-  -webkit-filter: blur(2px);
-          filter: blur(2px);
-}
-
-@media (max-width: 900px) {
-  .header__floating3 {
-    width: 20%;
-  }
-}
+  filter: blur(2px); }
+  @media (max-width: 900px) {
+    .header__floating3 {
+      width: 20%; } }
 
 .header__floating4 {
   position: absolute;
   width: 120px;
   right: 10%;
   top: 25%;
-  -webkit-filter: blur(3px);
-          filter: blur(3px);
-}
-
-@media (max-width: 900px) {
-  .header__floating4 {
-    width: 10%;
-  }
-}
+  filter: blur(3px); }
+  @media (max-width: 900px) {
+    .header__floating4 {
+      width: 10%; } }
 
 .header .gene__container {
-  -webkit-transform: skew(0, 4deg) translateY(45px);
-      -ms-transform: skew(0, 4deg) translateY(45px);
-          transform: skew(0, 4deg) translateY(45px);
-  text-align: center;
-}
+  transform: skew(0, 4deg) translateY(45px);
+  text-align: center; }
 
 .header .header__img {
   display: block;
   width: 350px;
   margin: 0 auto;
-  padding: 100px 0 0 5%;
-}
-
-@media (max-width: 900px) {
-  .header .header__img {
-    width: 250px;
-  }
-}
-
-@media (max-width: 600px) {
-  .header .header__img {
-    width: 200px;
-  }
-}
+  padding: 100px 0 0 5%; }
+  @media (max-width: 900px) {
+    .header .header__img {
+      width: 250px; } }
+  @media (max-width: 600px) {
+    .header .header__img {
+      width: 200px; } }
 
 .header .header__intro {
   color: #dbdbdb;
@@ -349,21 +246,15 @@ a {
   font-size: 2.375rem;
   line-height: 1.2;
   margin-top: -35px;
-  text-align: left;
-}
-
-@media (max-width: 600px) {
-  .header .header__intro {
-    margin-top: 5px;
-    margin-left: 20px;
-    font-size: 1.9rem;
-  }
-}
-
-.header .header__intro b {
-  font-weight: 500;
-  color: #00fabc;
-}
+  text-align: left; }
+  @media (max-width: 600px) {
+    .header .header__intro {
+      margin-top: 5px;
+      margin-left: 20px;
+      font-size: 1.9rem; } }
+  .header .header__intro b {
+    font-weight: 500;
+    color: #00fabc; }
 
 .header .header__works {
   position: relative;
@@ -372,49 +263,32 @@ a {
   font-size: .9rem;
   font-style: oblique;
   color: #f4f4f4;
-  margin: 60px auto 5px;
-}
-
-@media (max-width: 600px) {
-  .header .header__works {
-    margin-top: 10px;
-  }
-}
+  margin: 60px auto 5px; }
+  @media (max-width: 600px) {
+    .header .header__works {
+      margin-top: 10px; } }
 
 .header .header__line {
-  margin: auto;
-}
+  margin: auto; }
 
 .works {
   background-color: #f4f4f4;
-  -webkit-transform: translateY(-90px);
-      -ms-transform: translateY(-90px);
-          transform: translateY(-90px);
+  transform: translateY(-90px);
   padding-top: 90px;
-  padding-bottom: 180px;
-}
-
-@media (max-width: 600px) {
-  .works {
-    padding-top: 35px;
-  }
-}
+  padding-bottom: 180px; }
+  @media (max-width: 600px) {
+    .works {
+      padding-top: 35px; } }
 
 .works .works__item {
   position: relative;
   width: 100%;
-  margin-top: 90px;
-}
-
-.works .works__item img {
-  width: 60%;
-}
-
-@media (max-width: 600px) {
+  margin-top: 90px; }
   .works .works__item img {
-    width: 90%;
-  }
-}
+    width: 60%; }
+    @media (max-width: 600px) {
+      .works .works__item img {
+        width: 90%; } }
 
 .works .works__card {
   display: inline-block;
@@ -422,218 +296,140 @@ a {
   padding: 30px;
   width: 40%;
   background: linear-gradient(to right, #00142f, #00444c 80%);
-  box-shadow: 0px 5px 20px #424242;
-}
-
-@media (max-width: 600px) {
-  .works .works__card {
-    padding: 15px;
-    min-width: 180px;
-  }
-}
-
-.works .works__card h2 {
-  font-weight: 700;
-  font-size: 2rem;
-  line-height: 1.1;
-  margin-top: 0;
-  margin-bottom: 20px;
-  color: #f4f4f4;
-}
-
-@media (max-width: 900px) {
+  box-shadow: 0px 5px 20px #424242; }
+  @media (max-width: 600px) {
+    .works .works__card {
+      padding: 15px;
+      min-width: 180px; } }
   .works .works__card h2 {
-    font-size: 1.8rem;
-  }
-}
-
-@media (max-width: 600px) {
-  .works .works__card h2 {
-    font-size: 1.25rem;
-  }
-}
-
-.works .works__card p {
-  color: #f4f4f4;
-  font-weight: 100;
-  letter-spacing: 0.05rem;
-  font-size: 0.5rem;
-}
-
-.works .works__card p:before {
-  content: '∞ ';
-}
-
-.works .works__card .button-primary {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  -webkit-transform: translateX(-50%) translateY(50%);
-      -ms-transform: translateX(-50%) translateY(50%);
-          transform: translateX(-50%) translateY(50%);
-}
-
-.works .works__card .button-primary svg {
-  width: .6rem;
-  transition: all 0.2s;
-  fill: none;
-  stroke: #00142f;
-  stroke-width: 3px;
-}
-
-.works .works__card .button-primary:hover {
-  -webkit-transform: translate(-50%, 43%);
-      -ms-transform: translate(-50%, 43%);
-          transform: translate(-50%, 43%);
-}
-
-.works .works__card .button-primary:active {
-  -webkit-transform: translate(-50%, 50%);
-      -ms-transform: translate(-50%, 50%);
-          transform: translate(-50%, 50%);
-}
-
-.works .works__card .button-primary:hover svg {
-  -webkit-transform: translateX(140%);
-      -ms-transform: translateX(140%);
-          transform: translateX(140%);
-}
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 1.1;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #f4f4f4; }
+    @media (max-width: 900px) {
+      .works .works__card h2 {
+        font-size: 1.8rem; } }
+    @media (max-width: 600px) {
+      .works .works__card h2 {
+        font-size: 1.25rem; } }
+  .works .works__card p {
+    color: #f4f4f4;
+    font-weight: 100;
+    letter-spacing: 0.05rem;
+    font-size: 0.5rem; }
+    .works .works__card p:before {
+      content: '∞ '; }
+  .works .works__card .button-primary {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%) translateY(50%); }
+    .works .works__card .button-primary svg {
+      width: .6rem;
+      transition: all 0.2s;
+      fill: none;
+      stroke: #00142f;
+      stroke-width: 3px; }
+    .works .works__card .button-primary:hover {
+      transform: translate(-50%, 43%); }
+    .works .works__card .button-primary:active {
+      transform: translate(-50%, 50%); }
+    .works .works__card .button-primary:hover svg {
+      transform: translateX(140%); }
 
 .works .works__item-jackercleaning .works__card {
   position: relative;
   top: 100px;
-  right: 50px;
-}
-
-@media (max-width: 600px) {
-  .works .works__item-jackercleaning .works__card {
-    position: absolute;
-    width: 50%;
-    top: 150px;
-    right: 2%;
-  }
-}
+  right: 50px; }
+  @media (max-width: 600px) {
+    .works .works__item-jackercleaning .works__card {
+      position: absolute;
+      width: 50%;
+      top: 150px;
+      right: 2%; } }
 
 @media (max-width: 600px) {
   .works .works__item-moon {
-    margin-top: 180px;
-  }
-}
+    margin-top: 180px; } }
 
 .works .works__item-moon img {
   box-shadow: 0px 5px 20px #282828;
   position: relative;
-  z-index: 1;
-}
-
-@media (max-width: 600px) {
-  .works .works__item-moon img {
-    left: 30px;
-  }
-}
+  z-index: 1; }
+  @media (max-width: 600px) {
+    .works .works__item-moon img {
+      left: 30px; } }
 
 .works .works__item-moon .works__card {
   position: relative;
   bottom: -250px;
   left: 50px;
-  z-index: 0;
-}
-
-@media (max-width: 900px) {
-  .works .works__item-moon .works__card {
-    left: 30px;
-    bottom: -150px;
-  }
-}
-
-@media (max-width: 600px) {
-  .works .works__item-moon .works__card {
-    position: absolute;
-    bottom: -100px;
-    width: 50%;
-    left: 10px;
-    z-index: 1;
-  }
-}
+  z-index: 0; }
+  @media (max-width: 900px) {
+    .works .works__item-moon .works__card {
+      left: 30px;
+      bottom: -150px; } }
+  @media (max-width: 600px) {
+    .works .works__item-moon .works__card {
+      position: absolute;
+      bottom: -100px;
+      width: 50%;
+      left: 10px;
+      z-index: 1; } }
 
 .works .works__item-winter {
-  margin-top: 200px;
-}
-
-.works .works__item-winter img {
-  box-shadow: 0px 5px 20px #c1c1c1;
-}
-
-.works .works__item-winter .works__card {
-  position: relative;
-  top: 150px;
-  right: 50px;
-}
-
-@media (max-width: 600px) {
+  margin-top: 200px; }
+  .works .works__item-winter img {
+    box-shadow: 0px 5px 20px #c1c1c1; }
   .works .works__item-winter .works__card {
-    position: absolute;
-    width: 50%;
-    top: 200px;
-    left: auto;
-    right: 10px;
-    z-index: 1;
-  }
-}
+    position: relative;
+    top: 150px;
+    right: 50px; }
+    @media (max-width: 600px) {
+      .works .works__item-winter .works__card {
+        position: absolute;
+        width: 50%;
+        top: 200px;
+        left: auto;
+        right: 10px;
+        z-index: 1; } }
 
 .works .works__item-whiteday {
-  margin-top: 180px;
-}
-
-.works .works__item-whiteday img {
-  box-shadow: 0px 5px 20px #c1c1c1;
-  width: 50%;
-}
-
-@media (max-width: 600px) {
+  margin-top: 180px; }
   .works .works__item-whiteday img {
-    position: relative;
-    left: 25%;
-    width: 70%;
-  }
-}
-
-.works .works__item-whiteday .works__card {
-  position: relative;
-  top: 250px;
-  left: 50px;
-}
-
-@media (max-width: 600px) {
+    box-shadow: 0px 5px 20px #c1c1c1;
+    width: 50%; }
+    @media (max-width: 600px) {
+      .works .works__item-whiteday img {
+        position: relative;
+        left: 25%;
+        width: 70%; } }
   .works .works__item-whiteday .works__card {
-    top: 0;
-    left: 10px;
-  }
-}
+    position: relative;
+    top: 250px;
+    left: 50px; }
+    @media (max-width: 600px) {
+      .works .works__item-whiteday .works__card {
+        top: 0;
+        left: 10px; } }
 
 .works .works__item-jackercleaning .works__card, .works .works__item-winter .works__card {
-  float: right;
-}
+  float: right; }
 
 .works .works__item-moon .works__card,
 .works .works__item-whiteday .works__card {
-  float: left;
-}
+  float: left; }
 
 .works .works__line {
   position: absolute;
   right: 50%;
   bottom: 25%;
-  -webkit-transform: translateY(100%);
-      -ms-transform: translateY(100%);
-          transform: translateY(100%);
-}
-
-@media (max-width: 600px) {
-  .works .works__line {
-    bottom: 5%;
-  }
-}
+  transform: translateY(100%); }
+  @media (max-width: 600px) {
+    .works .works__line {
+      bottom: 5%; } }
 
 .footer {
   width: 100%;
@@ -641,797 +437,567 @@ a {
   position: absolute;
   bottom: 0;
   z-index: 9999;
-  padding-bottom: 10px;
-}
+  padding-bottom: 10px; }
 
 .footer .footer__logo {
-  width: 55px;
-}
+  width: 55px; }
 
 .footer img {
   display: block;
   margin: auto;
-  padding: 30px 0 0;
-}
+  padding: 30px 0 0; }
 
 .footer .footer__rights {
   font-family: "Minion Pro", "Times New Roman", "Adobe Garamond Pro", serif;
   text-align: center;
   color: #00142f;
-  font-size: 0.8rem;
-}
+  font-size: 0.8rem; }
 
 .header .header__line, .works .works__line, .vertical-line {
   display: block;
   content: "";
   width: 1px;
   height: 150px;
-  background: #00fabc;
-}
+  background: #00fabc; }
 
 .homepageRevision .singleWork__info .horizontal-line, .moonFestival .singleWork__info .horizontal-line, .winterCutting .singleWork__info .horizontal-line, .whiteDay .singleWork__info .horizontal-line, .about .singleWork__info .horizontal-line {
   display: block;
   content: "";
   width: 20px;
   height: 1px;
-  background: #00fabc;
-}
+  background: #00fabc; }
 
 .homepageRevision__aboutUsPC, .homepageRevision__mobile video, .homepageRevision__carousel video, .moonFestival img, .winterCutting img, .whiteDay img {
-  box-shadow: 0px 5px 20px #c1c1c1;
-}
+  box-shadow: 0px 5px 20px #c1c1c1; }
 
-.header, .homepageRevision__demoimg:after, .homepageRevision__mobile, .homepageRevision__carousel {
-  background: linear-gradient(to right, #00142f, #00444c 80%) no-repeat;
-}
+.header, .homepageRevision__demoimg:after, .homepageRevision__mobile, .homepageRevision__carousel, #preloader {
+  background: linear-gradient(to right, #00142f, #00444c 80%) no-repeat; }
 
 .winterCutting__second .left:after, .whiteDay__header:after {
-  background: linear-gradient(to right, #00fabc, #00444c 80%) no-repeat;
-}
+  background: linear-gradient(to right, #00fabc, #00444c 80%) no-repeat; }
 
 .homepageRevision, .moonFestival, .winterCutting, .whiteDay, .about {
   padding: 150px 0px 200px;
-  background: #f4f4f4;
-}
-
-@media (max-width: 600px) {
-  .homepageRevision, .moonFestival, .winterCutting, .whiteDay, .about {
-    padding-top: 100px;
-  }
-}
-
-.homepageRevision .singleWork__info, .moonFestival .singleWork__info, .winterCutting .singleWork__info, .whiteDay .singleWork__info, .about .singleWork__info {
-  width: 100%;
-}
-
-.homepageRevision .singleWork__info h1, .moonFestival .singleWork__info h1, .winterCutting .singleWork__info h1, .whiteDay .singleWork__info h1, .about .singleWork__info h1 {
-  font-size: 2.375rem;
-  font-weight: 700;
-  margin-bottom: 10px;
-}
-
-.homepageRevision .singleWork__info .singleWork__role, .moonFestival .singleWork__info .singleWork__role, .winterCutting .singleWork__info .singleWork__role, .whiteDay .singleWork__info .singleWork__role, .about .singleWork__info .singleWork__role {
-  font-size: 0.8rem;
-}
-
-.homepageRevision .singleWork__info .horizontal-line, .moonFestival .singleWork__info .horizontal-line, .winterCutting .singleWork__info .horizontal-line, .whiteDay .singleWork__info .horizontal-line, .about .singleWork__info .horizontal-line {
-  margin: 50px 0 20px;
-}
-
-.homepageRevision .singleWork__info .singleWork__description, .moonFestival .singleWork__info .singleWork__description, .winterCutting .singleWork__info .singleWork__description, .whiteDay .singleWork__info .singleWork__description, .about .singleWork__info .singleWork__description {
-  font-family: "Minion Pro", "Times New Roman", "Adobe Garamond Pro", serif;
-  font-size: 1.1rem;
-  line-height: 1.5;
-  color: #00142f;
-  width: 85%;
-  margin: 0px 0px 70px;
-}
-
-@media (max-width: 600px) {
-  .homepageRevision .singleWork__info .singleWork__description, .moonFestival .singleWork__info .singleWork__description, .winterCutting .singleWork__info .singleWork__description, .whiteDay .singleWork__info .singleWork__description, .about .singleWork__info .singleWork__description {
-    width: 100%;
-  }
-}
+  background: #f4f4f4; }
+  @media (max-width: 600px) {
+    .homepageRevision, .moonFestival, .winterCutting, .whiteDay, .about {
+      padding-top: 100px; } }
+  .homepageRevision .singleWork__info, .moonFestival .singleWork__info, .winterCutting .singleWork__info, .whiteDay .singleWork__info, .about .singleWork__info {
+    width: 100%; }
+    .homepageRevision .singleWork__info h1, .moonFestival .singleWork__info h1, .winterCutting .singleWork__info h1, .whiteDay .singleWork__info h1, .about .singleWork__info h1 {
+      font-size: 2.375rem;
+      font-weight: 700;
+      margin-bottom: 10px; }
+    .homepageRevision .singleWork__info .singleWork__role, .moonFestival .singleWork__info .singleWork__role, .winterCutting .singleWork__info .singleWork__role, .whiteDay .singleWork__info .singleWork__role, .about .singleWork__info .singleWork__role {
+      font-size: 0.8rem; }
+    .homepageRevision .singleWork__info .horizontal-line, .moonFestival .singleWork__info .horizontal-line, .winterCutting .singleWork__info .horizontal-line, .whiteDay .singleWork__info .horizontal-line, .about .singleWork__info .horizontal-line {
+      margin: 50px 0 20px; }
+    .homepageRevision .singleWork__info .singleWork__description, .moonFestival .singleWork__info .singleWork__description, .winterCutting .singleWork__info .singleWork__description, .whiteDay .singleWork__info .singleWork__description, .about .singleWork__info .singleWork__description {
+      font-family: "Minion Pro", "Times New Roman", "Adobe Garamond Pro", serif;
+      font-size: 1.1rem;
+      line-height: 1.5;
+      color: #00142f;
+      width: 85%;
+      margin: 0px 0px 70px; }
+      @media (max-width: 600px) {
+        .homepageRevision .singleWork__info .singleWork__description, .moonFestival .singleWork__info .singleWork__description, .winterCutting .singleWork__info .singleWork__description, .whiteDay .singleWork__info .singleWork__description, .about .singleWork__info .singleWork__description {
+          width: 100%; } }
 
 .homepageRevision {
-  overflow: hidden;
-}
+  overflow: hidden; }
 
 .homepageRevision__visuals {
-  position: relative;
-}
-
-.homepageRevision__visuals .vertical-line {
-  margin: 0 auto;
-  height: 100px;
-  position: relative;
-  bottom: -30px;
-}
+  position: relative; }
+  .homepageRevision__visuals .vertical-line {
+    margin: 0 auto;
+    height: 100px;
+    position: relative;
+    bottom: -30px; }
 
 .homepageRevision__aboutUsPC video {
-  width: 100%;
-}
+  width: 100%; }
 
 .homepageRevision__demoimg {
   position: relative;
   width: 700px;
   height: 400px;
-  margin: 150px 0 0 0;
-}
-
-@media (max-width: 600px) {
-  .homepageRevision__demoimg {
-    width: 100%;
-    height: 300px;
-  }
-}
-
-.homepageRevision__demoimg:after {
-  position: absolute;
-  content: " ";
-  height: 30px;
-  width: 500px;
-  top: 160px;
-  right: -46%;
-}
-
-@media (max-width: 600px) {
+  margin: 150px 0 0 0; }
+  @media (max-width: 600px) {
+    .homepageRevision__demoimg {
+      width: 100%;
+      height: 300px; } }
   .homepageRevision__demoimg:after {
-    width: 100px;
-    right: 0;
-  }
-}
+    position: absolute;
+    content: " ";
+    height: 30px;
+    width: 500px;
+    top: 160px;
+    right: -46%; }
+    @media (max-width: 600px) {
+      .homepageRevision__demoimg:after {
+        width: 100px;
+        right: 0; } }
 
 .homepageRevision__deskimg {
-  width: 90%;
-}
-
-@media (max-width: 600px) {
-  .homepageRevision__deskimg {
-    width: 100%;
-  }
-}
+  width: 90%; }
+  @media (max-width: 600px) {
+    .homepageRevision__deskimg {
+      width: 100%; } }
 
 .homepageRevision__mobileimg {
   width: 20%;
   position: relative;
-  top: -250px;
-}
-
-@media (max-width: 600px) {
-  .homepageRevision__mobileimg {
-    width: 25%;
-    top: -150px;
-  }
-}
+  top: -250px; }
+  @media (max-width: 600px) {
+    .homepageRevision__mobileimg {
+      width: 25%;
+      top: -150px; } }
 
 .homepageRevision__mobile {
   width: 250px;
   margin: 0 auto;
   padding: 3px;
-  clear: right;
-}
-
-.homepageRevision__mobile video {
-  position: relative;
-  top: 20px;
-  left: 20px;
-  width: 100%;
-}
+  clear: right; }
+  .homepageRevision__mobile video {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    width: 100%; }
 
 .homepageRevision__carousel {
   width: 90%;
   min-height: 300px;
   padding: 50px 0;
-  margin: 150px auto 100px;
-}
-
-@media (max-width: 600px) {
-  .homepageRevision__carousel {
-    margin: 0px auto 50px;
-    min-height: 100px;
-  }
-}
-
-.homepageRevision__carousel video {
-  width: 90%;
-  float: right;
-  margin-right: -120px;
-}
-
-@media (max-width: 900px) {
+  margin: 150px auto 100px; }
+  @media (max-width: 600px) {
+    .homepageRevision__carousel {
+      margin: 0px auto 50px;
+      min-height: 100px; } }
   .homepageRevision__carousel video {
-    width: 110%;
-    margin-right: -5%;
-  }
-}
-
-.homepageRevision__carousel:after {
-  content: " ";
-  display: block;
-  clear: both;
-}
+    width: 90%;
+    float: right;
+    margin-right: -120px; }
+    @media (max-width: 900px) {
+      .homepageRevision__carousel video {
+        width: 110%;
+        margin-right: -5%; } }
+  .homepageRevision__carousel:after {
+    content: " ";
+    display: block;
+    clear: both; }
 
 .header .header__line, .works .works__line, .vertical-line {
   display: block;
   content: "";
   width: 1px;
   height: 150px;
-  background: #00fabc;
-}
+  background: #00fabc; }
 
 .homepageRevision .singleWork__info .horizontal-line, .moonFestival .singleWork__info .horizontal-line, .winterCutting .singleWork__info .horizontal-line, .whiteDay .singleWork__info .horizontal-line, .about .singleWork__info .horizontal-line {
   display: block;
   content: "";
   width: 20px;
   height: 1px;
-  background: #00fabc;
-}
+  background: #00fabc; }
 
 .homepageRevision__aboutUsPC, .homepageRevision__mobile video, .homepageRevision__carousel video, .moonFestival img, .winterCutting img, .whiteDay img {
-  box-shadow: 0px 5px 20px #c1c1c1;
-}
+  box-shadow: 0px 5px 20px #c1c1c1; }
 
-.header, .homepageRevision__demoimg:after, .homepageRevision__mobile, .homepageRevision__carousel {
-  background: linear-gradient(to right, #00142f, #00444c 80%) no-repeat;
-}
+.header, .homepageRevision__demoimg:after, .homepageRevision__mobile, .homepageRevision__carousel, #preloader {
+  background: linear-gradient(to right, #00142f, #00444c 80%) no-repeat; }
 
 .winterCutting__second .left:after, .whiteDay__header:after {
-  background: linear-gradient(to right, #00fabc, #00444c 80%) no-repeat;
-}
+  background: linear-gradient(to right, #00fabc, #00444c 80%) no-repeat; }
 
 .homepageRevision, .moonFestival, .winterCutting, .whiteDay, .about {
   padding: 150px 0px 200px;
-  background: #f4f4f4;
-}
-
-@media (max-width: 600px) {
-  .homepageRevision, .moonFestival, .winterCutting, .whiteDay, .about {
-    padding-top: 100px;
-  }
-}
-
-.homepageRevision .singleWork__info, .moonFestival .singleWork__info, .winterCutting .singleWork__info, .whiteDay .singleWork__info, .about .singleWork__info {
-  width: 100%;
-}
-
-.homepageRevision .singleWork__info h1, .moonFestival .singleWork__info h1, .winterCutting .singleWork__info h1, .whiteDay .singleWork__info h1, .about .singleWork__info h1 {
-  font-size: 2.375rem;
-  font-weight: 700;
-  margin-bottom: 10px;
-}
-
-.homepageRevision .singleWork__info .singleWork__role, .moonFestival .singleWork__info .singleWork__role, .winterCutting .singleWork__info .singleWork__role, .whiteDay .singleWork__info .singleWork__role, .about .singleWork__info .singleWork__role {
-  font-size: 0.8rem;
-}
-
-.homepageRevision .singleWork__info .horizontal-line, .moonFestival .singleWork__info .horizontal-line, .winterCutting .singleWork__info .horizontal-line, .whiteDay .singleWork__info .horizontal-line, .about .singleWork__info .horizontal-line {
-  margin: 50px 0 20px;
-}
-
-.homepageRevision .singleWork__info .singleWork__description, .moonFestival .singleWork__info .singleWork__description, .winterCutting .singleWork__info .singleWork__description, .whiteDay .singleWork__info .singleWork__description, .about .singleWork__info .singleWork__description {
-  font-family: "Minion Pro", "Times New Roman", "Adobe Garamond Pro", serif;
-  font-size: 1.1rem;
-  line-height: 1.5;
-  color: #00142f;
-  width: 85%;
-  margin: 0px 0px 70px;
-}
-
-@media (max-width: 600px) {
-  .homepageRevision .singleWork__info .singleWork__description, .moonFestival .singleWork__info .singleWork__description, .winterCutting .singleWork__info .singleWork__description, .whiteDay .singleWork__info .singleWork__description, .about .singleWork__info .singleWork__description {
-    width: 100%;
-  }
-}
+  background: #f4f4f4; }
+  @media (max-width: 600px) {
+    .homepageRevision, .moonFestival, .winterCutting, .whiteDay, .about {
+      padding-top: 100px; } }
+  .homepageRevision .singleWork__info, .moonFestival .singleWork__info, .winterCutting .singleWork__info, .whiteDay .singleWork__info, .about .singleWork__info {
+    width: 100%; }
+    .homepageRevision .singleWork__info h1, .moonFestival .singleWork__info h1, .winterCutting .singleWork__info h1, .whiteDay .singleWork__info h1, .about .singleWork__info h1 {
+      font-size: 2.375rem;
+      font-weight: 700;
+      margin-bottom: 10px; }
+    .homepageRevision .singleWork__info .singleWork__role, .moonFestival .singleWork__info .singleWork__role, .winterCutting .singleWork__info .singleWork__role, .whiteDay .singleWork__info .singleWork__role, .about .singleWork__info .singleWork__role {
+      font-size: 0.8rem; }
+    .homepageRevision .singleWork__info .horizontal-line, .moonFestival .singleWork__info .horizontal-line, .winterCutting .singleWork__info .horizontal-line, .whiteDay .singleWork__info .horizontal-line, .about .singleWork__info .horizontal-line {
+      margin: 50px 0 20px; }
+    .homepageRevision .singleWork__info .singleWork__description, .moonFestival .singleWork__info .singleWork__description, .winterCutting .singleWork__info .singleWork__description, .whiteDay .singleWork__info .singleWork__description, .about .singleWork__info .singleWork__description {
+      font-family: "Minion Pro", "Times New Roman", "Adobe Garamond Pro", serif;
+      font-size: 1.1rem;
+      line-height: 1.5;
+      color: #00142f;
+      width: 85%;
+      margin: 0px 0px 70px; }
+      @media (max-width: 600px) {
+        .homepageRevision .singleWork__info .singleWork__description, .moonFestival .singleWork__info .singleWork__description, .winterCutting .singleWork__info .singleWork__description, .whiteDay .singleWork__info .singleWork__description, .about .singleWork__info .singleWork__description {
+          width: 100%; } }
 
 .moonFestival {
-  overflow: hidden;
-}
-
-.moonFestival img {
-  width: 100%;
-}
+  overflow: hidden; }
+  .moonFestival img {
+    width: 100%; }
 
 .moonFestival__header {
-  width: 100%;
-}
-
-.moonFestival__header img {
-  width: 100%;
-}
+  width: 100%; }
+  .moonFestival__header img {
+    width: 100%; }
 
 .moonFestival__second {
   width: 100%;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-align-items: flex-end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  margin-top: 150px;
-}
-
-@media (max-width: 600px) {
-  .moonFestival__second {
-    margin-top: 50px;
-    -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-}
-
-.moonFestival__second .left {
-  -webkit-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  margin-right: 150px;
-  position: relative;
-  z-index: 1;
-}
-
-@media (max-width: 900px) {
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 150px; }
+  @media (max-width: 600px) {
+    .moonFestival__second {
+      margin-top: 50px;
+      flex-direction: column; } }
   .moonFestival__second .left {
-    margin-right: 50px;
-  }
-}
-
-@media (max-width: 600px) {
-  .moonFestival__second .left {
-    width: 20%;
-    margin: 50px auto 100px;
-  }
-  .moonFestival__second .left:after {
-    content: ' ';
+    flex: 1;
+    margin-right: 150px;
     position: relative;
-    display: block;
-    height: 2px;
-    width: 200%;
-    background: #00142f;
-    -webkit-transform: translate(-25%, -50px);
-        -ms-transform: translate(-25%, -50px);
-            transform: translate(-25%, -50px);
-    z-index: -1;
-  }
-}
-
-.moonFestival__second .right {
-  position: relative;
-  -webkit-flex: 5;
-      -ms-flex: 5;
-          flex: 5;
-}
+    z-index: 1; }
+    @media (max-width: 900px) {
+      .moonFestival__second .left {
+        margin-right: 50px; } }
+    @media (max-width: 600px) {
+      .moonFestival__second .left {
+        width: 20%;
+        margin: 50px auto 100px; }
+        .moonFestival__second .left:after {
+          content: ' ';
+          position: relative;
+          display: block;
+          height: 2px;
+          width: 200%;
+          background: #00142f;
+          transform: translate(-25%, -50px);
+          z-index: -1; } }
+  .moonFestival__second .right {
+    position: relative;
+    flex: 5; }
 
 .moonFestival__third {
   width: 100%;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-align-items: flex-end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  margin-top: 250px;
-}
-
-@media (max-width: 600px) {
-  .moonFestival__third {
-    margin-top: 100px;
-    -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-}
-
-.moonFestival__third .left {
-  -webkit-flex: 2;
-      -ms-flex: 2;
-          flex: 2;
-  margin-right: 110px;
-}
-
-@media (max-width: 900px) {
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 250px; }
+  @media (max-width: 600px) {
+    .moonFestival__third {
+      margin-top: 100px;
+      flex-direction: column; } }
   .moonFestival__third .left {
-    margin-right: 50px;
-  }
-}
-
-@media (max-width: 600px) {
-  .moonFestival__third .left {
-    margin-right: 0px;
-    margin-bottom: 30px;
-  }
-}
-
-.moonFestival__third .right {
-  -webkit-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-}
+    flex: 2;
+    margin-right: 110px; }
+    @media (max-width: 900px) {
+      .moonFestival__third .left {
+        margin-right: 50px; } }
+    @media (max-width: 600px) {
+      .moonFestival__third .left {
+        margin-right: 0px;
+        margin-bottom: 30px; } }
+  .moonFestival__third .right {
+    flex: 1; }
 
 .header .header__line, .works .works__line, .vertical-line {
   display: block;
   content: "";
   width: 1px;
   height: 150px;
-  background: #00fabc;
-}
+  background: #00fabc; }
 
 .homepageRevision .singleWork__info .horizontal-line, .moonFestival .singleWork__info .horizontal-line, .winterCutting .singleWork__info .horizontal-line, .whiteDay .singleWork__info .horizontal-line, .about .singleWork__info .horizontal-line {
   display: block;
   content: "";
   width: 20px;
   height: 1px;
-  background: #00fabc;
-}
+  background: #00fabc; }
 
 .homepageRevision__aboutUsPC, .homepageRevision__mobile video, .homepageRevision__carousel video, .moonFestival img, .winterCutting img, .whiteDay img {
-  box-shadow: 0px 5px 20px #c1c1c1;
-}
+  box-shadow: 0px 5px 20px #c1c1c1; }
 
-.header, .homepageRevision__demoimg:after, .homepageRevision__mobile, .homepageRevision__carousel {
-  background: linear-gradient(to right, #00142f, #00444c 80%) no-repeat;
-}
+.header, .homepageRevision__demoimg:after, .homepageRevision__mobile, .homepageRevision__carousel, #preloader {
+  background: linear-gradient(to right, #00142f, #00444c 80%) no-repeat; }
 
 .winterCutting__second .left:after, .whiteDay__header:after {
-  background: linear-gradient(to right, #00fabc, #00444c 80%) no-repeat;
-}
+  background: linear-gradient(to right, #00fabc, #00444c 80%) no-repeat; }
 
 .homepageRevision, .moonFestival, .winterCutting, .whiteDay, .about {
   padding: 150px 0px 200px;
-  background: #f4f4f4;
-}
-
-@media (max-width: 600px) {
-  .homepageRevision, .moonFestival, .winterCutting, .whiteDay, .about {
-    padding-top: 100px;
-  }
-}
-
-.homepageRevision .singleWork__info, .moonFestival .singleWork__info, .winterCutting .singleWork__info, .whiteDay .singleWork__info, .about .singleWork__info {
-  width: 100%;
-}
-
-.homepageRevision .singleWork__info h1, .moonFestival .singleWork__info h1, .winterCutting .singleWork__info h1, .whiteDay .singleWork__info h1, .about .singleWork__info h1 {
-  font-size: 2.375rem;
-  font-weight: 700;
-  margin-bottom: 10px;
-}
-
-.homepageRevision .singleWork__info .singleWork__role, .moonFestival .singleWork__info .singleWork__role, .winterCutting .singleWork__info .singleWork__role, .whiteDay .singleWork__info .singleWork__role, .about .singleWork__info .singleWork__role {
-  font-size: 0.8rem;
-}
-
-.homepageRevision .singleWork__info .horizontal-line, .moonFestival .singleWork__info .horizontal-line, .winterCutting .singleWork__info .horizontal-line, .whiteDay .singleWork__info .horizontal-line, .about .singleWork__info .horizontal-line {
-  margin: 50px 0 20px;
-}
-
-.homepageRevision .singleWork__info .singleWork__description, .moonFestival .singleWork__info .singleWork__description, .winterCutting .singleWork__info .singleWork__description, .whiteDay .singleWork__info .singleWork__description, .about .singleWork__info .singleWork__description {
-  font-family: "Minion Pro", "Times New Roman", "Adobe Garamond Pro", serif;
-  font-size: 1.1rem;
-  line-height: 1.5;
-  color: #00142f;
-  width: 85%;
-  margin: 0px 0px 70px;
-}
-
-@media (max-width: 600px) {
-  .homepageRevision .singleWork__info .singleWork__description, .moonFestival .singleWork__info .singleWork__description, .winterCutting .singleWork__info .singleWork__description, .whiteDay .singleWork__info .singleWork__description, .about .singleWork__info .singleWork__description {
-    width: 100%;
-  }
-}
+  background: #f4f4f4; }
+  @media (max-width: 600px) {
+    .homepageRevision, .moonFestival, .winterCutting, .whiteDay, .about {
+      padding-top: 100px; } }
+  .homepageRevision .singleWork__info, .moonFestival .singleWork__info, .winterCutting .singleWork__info, .whiteDay .singleWork__info, .about .singleWork__info {
+    width: 100%; }
+    .homepageRevision .singleWork__info h1, .moonFestival .singleWork__info h1, .winterCutting .singleWork__info h1, .whiteDay .singleWork__info h1, .about .singleWork__info h1 {
+      font-size: 2.375rem;
+      font-weight: 700;
+      margin-bottom: 10px; }
+    .homepageRevision .singleWork__info .singleWork__role, .moonFestival .singleWork__info .singleWork__role, .winterCutting .singleWork__info .singleWork__role, .whiteDay .singleWork__info .singleWork__role, .about .singleWork__info .singleWork__role {
+      font-size: 0.8rem; }
+    .homepageRevision .singleWork__info .horizontal-line, .moonFestival .singleWork__info .horizontal-line, .winterCutting .singleWork__info .horizontal-line, .whiteDay .singleWork__info .horizontal-line, .about .singleWork__info .horizontal-line {
+      margin: 50px 0 20px; }
+    .homepageRevision .singleWork__info .singleWork__description, .moonFestival .singleWork__info .singleWork__description, .winterCutting .singleWork__info .singleWork__description, .whiteDay .singleWork__info .singleWork__description, .about .singleWork__info .singleWork__description {
+      font-family: "Minion Pro", "Times New Roman", "Adobe Garamond Pro", serif;
+      font-size: 1.1rem;
+      line-height: 1.5;
+      color: #00142f;
+      width: 85%;
+      margin: 0px 0px 70px; }
+      @media (max-width: 600px) {
+        .homepageRevision .singleWork__info .singleWork__description, .moonFestival .singleWork__info .singleWork__description, .winterCutting .singleWork__info .singleWork__description, .whiteDay .singleWork__info .singleWork__description, .about .singleWork__info .singleWork__description {
+          width: 100%; } }
 
 .winterCutting {
-  overflow: hidden;
-}
-
-.winterCutting img {
-  width: 100%;
-}
+  overflow: hidden; }
+  .winterCutting img {
+    width: 100%; }
 
 .winterCutting__header {
-  width: 100%;
-}
+  width: 100%; }
 
 .winterCutting__second {
   width: 63%;
-  margin: 100px auto;
-}
-
-@media (max-width: 600px) {
-  .winterCutting__second {
-    width: 100%;
-  }
-}
-
-.winterCutting__second .left {
-  position: relative;
-  right: 120px;
-  top: 30px;
-}
-
-@media (max-width: 600px) {
+  margin: 100px auto; }
+  @media (max-width: 600px) {
+    .winterCutting__second {
+      width: 100%; } }
   .winterCutting__second .left {
-    position: static;
-    width: 100%;
-    margin-bottom: 50px;
-  }
-}
-
-.winterCutting__second .left:after {
-  content: " ";
-  display: block;
-  position: absolute;
-  left: -5%;
-  height: 1px;
-  width: 150%;
-  -webkit-transform: rotate(-20deg);
-      -ms-transform: rotate(-20deg);
-          transform: rotate(-20deg);
-}
-
-@media (max-width: 900px) {
-  .winterCutting__second .left:after {
-    left: 5%;
-  }
-}
-
-@media (max-width: 600px) {
-  .winterCutting__second .left:after {
-    width: 90%;
-  }
-}
-
-.winterCutting__second .right {
-  position: relative;
-  left: 120px;
-}
-
-@media (max-width: 600px) {
+    position: relative;
+    right: 120px;
+    top: 30px; }
+    @media (max-width: 600px) {
+      .winterCutting__second .left {
+        position: static;
+        width: 100%;
+        margin-bottom: 50px; } }
+    .winterCutting__second .left:after {
+      content: " ";
+      display: block;
+      position: absolute;
+      left: -5%;
+      height: 1px;
+      width: 150%;
+      transform: rotate(-20deg); }
+      @media (max-width: 900px) {
+        .winterCutting__second .left:after {
+          left: 5%; } }
+      @media (max-width: 600px) {
+        .winterCutting__second .left:after {
+          width: 90%; } }
   .winterCutting__second .right {
-    position: static;
-    width: 100%;
-  }
-}
+    position: relative;
+    left: 120px; }
+    @media (max-width: 600px) {
+      .winterCutting__second .right {
+        position: static;
+        width: 100%; } }
 
 .winterCutting__third {
-  width: 70%;
-}
-
-@media (max-width: 900px) {
-  .winterCutting__third {
-    width: 100%;
-  }
-}
+  width: 70%; }
+  @media (max-width: 900px) {
+    .winterCutting__third {
+      width: 100%; } }
 
 .header .header__line, .works .works__line, .vertical-line {
   display: block;
   content: "";
   width: 1px;
   height: 150px;
-  background: #00fabc;
-}
+  background: #00fabc; }
 
 .homepageRevision .singleWork__info .horizontal-line, .moonFestival .singleWork__info .horizontal-line, .winterCutting .singleWork__info .horizontal-line, .whiteDay .singleWork__info .horizontal-line, .about .singleWork__info .horizontal-line {
   display: block;
   content: "";
   width: 20px;
   height: 1px;
-  background: #00fabc;
-}
+  background: #00fabc; }
 
 .homepageRevision__aboutUsPC, .homepageRevision__mobile video, .homepageRevision__carousel video, .moonFestival img, .winterCutting img, .whiteDay img {
-  box-shadow: 0px 5px 20px #c1c1c1;
-}
+  box-shadow: 0px 5px 20px #c1c1c1; }
 
-.header, .homepageRevision__demoimg:after, .homepageRevision__mobile, .homepageRevision__carousel {
-  background: linear-gradient(to right, #00142f, #00444c 80%) no-repeat;
-}
+.header, .homepageRevision__demoimg:after, .homepageRevision__mobile, .homepageRevision__carousel, #preloader {
+  background: linear-gradient(to right, #00142f, #00444c 80%) no-repeat; }
 
 .winterCutting__second .left:after, .whiteDay__header:after {
-  background: linear-gradient(to right, #00fabc, #00444c 80%) no-repeat;
-}
+  background: linear-gradient(to right, #00fabc, #00444c 80%) no-repeat; }
 
 .homepageRevision, .moonFestival, .winterCutting, .whiteDay, .about {
   padding: 150px 0px 200px;
-  background: #f4f4f4;
-}
-
-@media (max-width: 600px) {
-  .homepageRevision, .moonFestival, .winterCutting, .whiteDay, .about {
-    padding-top: 100px;
-  }
-}
-
-.homepageRevision .singleWork__info, .moonFestival .singleWork__info, .winterCutting .singleWork__info, .whiteDay .singleWork__info, .about .singleWork__info {
-  width: 100%;
-}
-
-.homepageRevision .singleWork__info h1, .moonFestival .singleWork__info h1, .winterCutting .singleWork__info h1, .whiteDay .singleWork__info h1, .about .singleWork__info h1 {
-  font-size: 2.375rem;
-  font-weight: 700;
-  margin-bottom: 10px;
-}
-
-.homepageRevision .singleWork__info .singleWork__role, .moonFestival .singleWork__info .singleWork__role, .winterCutting .singleWork__info .singleWork__role, .whiteDay .singleWork__info .singleWork__role, .about .singleWork__info .singleWork__role {
-  font-size: 0.8rem;
-}
-
-.homepageRevision .singleWork__info .horizontal-line, .moonFestival .singleWork__info .horizontal-line, .winterCutting .singleWork__info .horizontal-line, .whiteDay .singleWork__info .horizontal-line, .about .singleWork__info .horizontal-line {
-  margin: 50px 0 20px;
-}
-
-.homepageRevision .singleWork__info .singleWork__description, .moonFestival .singleWork__info .singleWork__description, .winterCutting .singleWork__info .singleWork__description, .whiteDay .singleWork__info .singleWork__description, .about .singleWork__info .singleWork__description {
-  font-family: "Minion Pro", "Times New Roman", "Adobe Garamond Pro", serif;
-  font-size: 1.1rem;
-  line-height: 1.5;
-  color: #00142f;
-  width: 85%;
-  margin: 0px 0px 70px;
-}
-
-@media (max-width: 600px) {
-  .homepageRevision .singleWork__info .singleWork__description, .moonFestival .singleWork__info .singleWork__description, .winterCutting .singleWork__info .singleWork__description, .whiteDay .singleWork__info .singleWork__description, .about .singleWork__info .singleWork__description {
-    width: 100%;
-  }
-}
+  background: #f4f4f4; }
+  @media (max-width: 600px) {
+    .homepageRevision, .moonFestival, .winterCutting, .whiteDay, .about {
+      padding-top: 100px; } }
+  .homepageRevision .singleWork__info, .moonFestival .singleWork__info, .winterCutting .singleWork__info, .whiteDay .singleWork__info, .about .singleWork__info {
+    width: 100%; }
+    .homepageRevision .singleWork__info h1, .moonFestival .singleWork__info h1, .winterCutting .singleWork__info h1, .whiteDay .singleWork__info h1, .about .singleWork__info h1 {
+      font-size: 2.375rem;
+      font-weight: 700;
+      margin-bottom: 10px; }
+    .homepageRevision .singleWork__info .singleWork__role, .moonFestival .singleWork__info .singleWork__role, .winterCutting .singleWork__info .singleWork__role, .whiteDay .singleWork__info .singleWork__role, .about .singleWork__info .singleWork__role {
+      font-size: 0.8rem; }
+    .homepageRevision .singleWork__info .horizontal-line, .moonFestival .singleWork__info .horizontal-line, .winterCutting .singleWork__info .horizontal-line, .whiteDay .singleWork__info .horizontal-line, .about .singleWork__info .horizontal-line {
+      margin: 50px 0 20px; }
+    .homepageRevision .singleWork__info .singleWork__description, .moonFestival .singleWork__info .singleWork__description, .winterCutting .singleWork__info .singleWork__description, .whiteDay .singleWork__info .singleWork__description, .about .singleWork__info .singleWork__description {
+      font-family: "Minion Pro", "Times New Roman", "Adobe Garamond Pro", serif;
+      font-size: 1.1rem;
+      line-height: 1.5;
+      color: #00142f;
+      width: 85%;
+      margin: 0px 0px 70px; }
+      @media (max-width: 600px) {
+        .homepageRevision .singleWork__info .singleWork__description, .moonFestival .singleWork__info .singleWork__description, .winterCutting .singleWork__info .singleWork__description, .whiteDay .singleWork__info .singleWork__description, .about .singleWork__info .singleWork__description {
+          width: 100%; } }
 
 .whiteDay {
-  overflow: hidden;
-}
-
-.whiteDay img {
-  width: 100%;
-}
+  overflow: hidden; }
+  .whiteDay img {
+    width: 100%; }
 
 .whiteDay__header:after {
   content: ' ';
   display: block;
   width: 80%;
   height: 3px;
-  margin: 100px auto;
-}
-
-@media (max-width: 600px) {
-  .whiteDay__header:after {
-    margin: 50px auto;
-  }
-}
+  margin: 100px auto; }
+  @media (max-width: 600px) {
+    .whiteDay__header:after {
+      margin: 50px auto; } }
 
 .whiteDay__second {
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-top: 150px;
-}
-
-@media (max-width: 600px) {
-  .whiteDay__second {
-    -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    width: 100%;
-    margin-top: 50px;
-  }
-}
-
-.whiteDay__second .left {
-  -webkit-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  margin-right: 200px;
-}
-
-@media (max-width: 900px) {
+  align-items: center;
+  margin-top: 150px; }
+  @media (max-width: 600px) {
+    .whiteDay__second {
+      flex-direction: column;
+      width: 100%;
+      margin-top: 50px; } }
   .whiteDay__second .left {
-    margin-right: 50px;
-  }
-}
-
-@media (max-width: 600px) {
-  .whiteDay__second .left {
-    margin-right: 0;
-    margin-bottom: 50px;
-  }
-}
-
-.whiteDay__second .right {
-  -webkit-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-}
+    flex: 1;
+    margin-right: 200px; }
+    @media (max-width: 900px) {
+      .whiteDay__second .left {
+        margin-right: 50px; } }
+    @media (max-width: 600px) {
+      .whiteDay__second .left {
+        margin-right: 0;
+        margin-bottom: 50px; } }
+  .whiteDay__second .right {
+    flex: 1; }
 
 .header .header__line, .works .works__line, .vertical-line {
   display: block;
   content: "";
   width: 1px;
   height: 150px;
-  background: #00fabc;
-}
+  background: #00fabc; }
 
 .homepageRevision .singleWork__info .horizontal-line, .moonFestival .singleWork__info .horizontal-line, .winterCutting .singleWork__info .horizontal-line, .whiteDay .singleWork__info .horizontal-line, .about .singleWork__info .horizontal-line {
   display: block;
   content: "";
   width: 20px;
   height: 1px;
-  background: #00fabc;
-}
+  background: #00fabc; }
 
 .homepageRevision__aboutUsPC, .homepageRevision__mobile video, .homepageRevision__carousel video, .moonFestival img, .winterCutting img, .whiteDay img {
-  box-shadow: 0px 5px 20px #c1c1c1;
-}
+  box-shadow: 0px 5px 20px #c1c1c1; }
 
-.header, .homepageRevision__demoimg:after, .homepageRevision__mobile, .homepageRevision__carousel {
-  background: linear-gradient(to right, #00142f, #00444c 80%) no-repeat;
-}
+.header, .homepageRevision__demoimg:after, .homepageRevision__mobile, .homepageRevision__carousel, #preloader {
+  background: linear-gradient(to right, #00142f, #00444c 80%) no-repeat; }
 
 .winterCutting__second .left:after, .whiteDay__header:after {
-  background: linear-gradient(to right, #00fabc, #00444c 80%) no-repeat;
-}
+  background: linear-gradient(to right, #00fabc, #00444c 80%) no-repeat; }
 
 .homepageRevision, .moonFestival, .winterCutting, .whiteDay, .about {
   padding: 150px 0px 200px;
-  background: #f4f4f4;
-}
-
-@media (max-width: 600px) {
-  .homepageRevision, .moonFestival, .winterCutting, .whiteDay, .about {
-    padding-top: 100px;
-  }
-}
-
-.homepageRevision .singleWork__info, .moonFestival .singleWork__info, .winterCutting .singleWork__info, .whiteDay .singleWork__info, .about .singleWork__info {
-  width: 100%;
-}
-
-.homepageRevision .singleWork__info h1, .moonFestival .singleWork__info h1, .winterCutting .singleWork__info h1, .whiteDay .singleWork__info h1, .about .singleWork__info h1 {
-  font-size: 2.375rem;
-  font-weight: 700;
-  margin-bottom: 10px;
-}
-
-.homepageRevision .singleWork__info .singleWork__role, .moonFestival .singleWork__info .singleWork__role, .winterCutting .singleWork__info .singleWork__role, .whiteDay .singleWork__info .singleWork__role, .about .singleWork__info .singleWork__role {
-  font-size: 0.8rem;
-}
-
-.homepageRevision .singleWork__info .horizontal-line, .moonFestival .singleWork__info .horizontal-line, .winterCutting .singleWork__info .horizontal-line, .whiteDay .singleWork__info .horizontal-line, .about .singleWork__info .horizontal-line {
-  margin: 50px 0 20px;
-}
-
-.homepageRevision .singleWork__info .singleWork__description, .moonFestival .singleWork__info .singleWork__description, .winterCutting .singleWork__info .singleWork__description, .whiteDay .singleWork__info .singleWork__description, .about .singleWork__info .singleWork__description {
-  font-family: "Minion Pro", "Times New Roman", "Adobe Garamond Pro", serif;
-  font-size: 1.1rem;
-  line-height: 1.5;
-  color: #00142f;
-  width: 85%;
-  margin: 0px 0px 70px;
-}
-
-@media (max-width: 600px) {
-  .homepageRevision .singleWork__info .singleWork__description, .moonFestival .singleWork__info .singleWork__description, .winterCutting .singleWork__info .singleWork__description, .whiteDay .singleWork__info .singleWork__description, .about .singleWork__info .singleWork__description {
-    width: 100%;
-  }
-}
+  background: #f4f4f4; }
+  @media (max-width: 600px) {
+    .homepageRevision, .moonFestival, .winterCutting, .whiteDay, .about {
+      padding-top: 100px; } }
+  .homepageRevision .singleWork__info, .moonFestival .singleWork__info, .winterCutting .singleWork__info, .whiteDay .singleWork__info, .about .singleWork__info {
+    width: 100%; }
+    .homepageRevision .singleWork__info h1, .moonFestival .singleWork__info h1, .winterCutting .singleWork__info h1, .whiteDay .singleWork__info h1, .about .singleWork__info h1 {
+      font-size: 2.375rem;
+      font-weight: 700;
+      margin-bottom: 10px; }
+    .homepageRevision .singleWork__info .singleWork__role, .moonFestival .singleWork__info .singleWork__role, .winterCutting .singleWork__info .singleWork__role, .whiteDay .singleWork__info .singleWork__role, .about .singleWork__info .singleWork__role {
+      font-size: 0.8rem; }
+    .homepageRevision .singleWork__info .horizontal-line, .moonFestival .singleWork__info .horizontal-line, .winterCutting .singleWork__info .horizontal-line, .whiteDay .singleWork__info .horizontal-line, .about .singleWork__info .horizontal-line {
+      margin: 50px 0 20px; }
+    .homepageRevision .singleWork__info .singleWork__description, .moonFestival .singleWork__info .singleWork__description, .winterCutting .singleWork__info .singleWork__description, .whiteDay .singleWork__info .singleWork__description, .about .singleWork__info .singleWork__description {
+      font-family: "Minion Pro", "Times New Roman", "Adobe Garamond Pro", serif;
+      font-size: 1.1rem;
+      line-height: 1.5;
+      color: #00142f;
+      width: 85%;
+      margin: 0px 0px 70px; }
+      @media (max-width: 600px) {
+        .homepageRevision .singleWork__info .singleWork__description, .moonFestival .singleWork__info .singleWork__description, .winterCutting .singleWork__info .singleWork__description, .whiteDay .singleWork__info .singleWork__description, .about .singleWork__info .singleWork__description {
+          width: 100%; } }
 
 .about {
   overflow: hidden;
-  min-height: 100vh;
-}
+  min-height: 100vh; }
 
 .about__title {
   padding-left: 10%;
   font-size: 2.375rem;
+  color: #19C3A1; }
+  @media (max-width: 600px) {
+    .about__title {
+      padding-left: 0; } }
+
+.about__intro {
+  line-height: 1.6;
+  font-size: 0.95rem;
+  width: 100%;
+  padding-left: 30%;
+  color: #00444c; }
+  @media (max-width: 600px) {
+    .about__intro {
+      padding-left: 0; } }
+
+.gene__container {
+  margin: 0 auto;
+  width: 960px; }
+  @media (max-width: 1200px) {
+    .gene__container {
+      width: 800px; } }
+  @media (max-width: 900px) {
+    .gene__container {
+      width: 90%; } }
+  @media (max-width: 600px) {
+    .gene__container {
+      width: 95%; } }
+
+.inline-link {
+  font-weight: 700;
   color: #19C3A1;
-}
+  transition: all .25s; }
+  .inline-link:hover {
+    color: #00fabc; }
 
 @media (max-width: 600px) {
+  .phone-invisible {
+    display: none !important; } }
+
+#preloader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 99999;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  background: url("http://files.mimoymima.com/images/loading.gif") no-repeat center center; }
+(max-width: 600px) {
   .about__title {
     padding-left: 0;
   }
@@ -1488,4 +1054,15 @@ a {
   .phone-invisible {
     display: none !important;
   }
+}
+
+#preloader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 99999;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  background: url("http://files.mimoymima.com/images/loading.gif") no-repeat center center;
 }
