@@ -1,4 +1,4 @@
-// $(document).ready(function(){
+$(document).ready(function(){
 
 	var Scrolling = (function(){
 
@@ -65,4 +65,4 @@
 
 	Scrolling.scrollToWorks();
 	Scrolling.animateCss();
-// });
+});
